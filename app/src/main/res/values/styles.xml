@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorEdgeEffect">@color/app_theme_color</item>
+    </style>
+    <style name="AppTheme" parent="BaseAppTheme">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+
+</resources>

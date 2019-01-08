@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_45"
+    android:background="@color/white"
+    >
+    <ImageView
+        android:id="@+id/img_left"
+        android:layout_width="@dimen/dp_45"
+        android:layout_height="@dimen/dp_45"
+        android:padding="@dimen/dp_14"
+        android:src="@mipmap/back_black"
+
+        android:background="@drawable/ripple_bg"
+        />
+    <TextView
+        android:id="@+id/tv_left"
+        android:layout_width="wrap_content"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingRight="@dimen/dp_15"
+        android:visibility="gone"
+        android:textSize="@dimen/sp_14"
+        android:background="@drawable/ripple_bg"
+        android:layout_height="@dimen/dp_45" />
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/tv_most_black"
+        android:textSize="@dimen/sp_15"
+        />
+    <ImageView
+        android:id="@+id/img_right"
+        android:layout_width="@dimen/dp_45"
+        android:layout_height="@dimen/dp_45"
+        android:padding="@dimen/dp_12"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ripple_bg"
+        />
+    <TextView
+        android:id="@+id/tv_right"
+        android:layout_width="wrap_content"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingRight="@dimen/dp_15"
+        android:textSize="@dimen/sp_14"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ripple_bg"
+        android:layout_height="@dimen/dp_45" />
+    <View
+        style="@style/most_line"
+        android:layout_alignParentBottom="true"
+        ></View>
+</RelativeLayout>

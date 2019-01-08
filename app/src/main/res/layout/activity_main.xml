@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_50"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="创建专属产业地图"
+        android:textSize="@dimen/sp_18"
+        />
+
+    <EditText
+        android:id="@+id/edit_kind"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginTop="@dimen/dp_60"
+        android:textSize="@dimen/sp_15"
+        android:text=""
+        android:textColor="@color/tv_most_black"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_marginRight="@dimen/dp_40"
+        android:hint="所属行业"
+        android:textColorHint="@color/tv_most_grey"
+        android:background="@null"
+        />
+    <View
+        style="@style/most_line"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginRight="@dimen/dp_30"
+        ></View>
+
+    <EditText
+        android:id="@+id/edit_author"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:textSize="@dimen/sp_15"
+        android:text=""
+        android:textColor="@color/tv_most_black"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_marginRight="@dimen/dp_40"
+        android:hint="作者署名"
+        android:textColorHint="@color/tv_most_grey"
+        android:background="@null"
+        />
+    <View
+        style="@style/most_line"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginRight="@dimen/dp_30"
+        ></View>
+
+    <TextView
+        android:id="@+id/tv_create"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:background="@drawable/shape_bg_red_solid"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_marginRight="@dimen/dp_40"
+        android:textSize="@dimen/sp_17"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/dp_40"
+        android:text="立即创建"
+        />
+    <TextView
+        android:id="@+id/tv_edit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:background="@drawable/shape_bg_red_stroke"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_marginRight="@dimen/dp_40"
+        android:textSize="@dimen/sp_17"
+        android:textColor="@color/app_theme_color"
+        android:layout_marginTop="@dimen/dp_40"
+        android:text="继续操作"
+        />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="most_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_0_5</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+
+    <style name="most_left_back">
+        <item name="android:layout_width">@dimen/dp_45</item>
+        <item name="android:layout_height">@dimen/dp_45</item>
+        <item name="android:padding">@dimen/dp_14</item>
+        <item name="android:background">@drawable/ripple_bg</item>
+        <item name="android:src">@mipmap/back_black</item>
+
+    </style>
+
+    <style name="frag_me_rl">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_60</item>
+        <item name="android:paddingLeft">@dimen/dp_20</item>
+        <item name="android:background">@drawable/ripple_bg</item>
+        <item name="android:paddingRight">@dimen/dp_20</item>
+    </style>
+    <style name="frag_me_img_left">
+        <item name="android:layout_width">@dimen/dp_20</item>
+        <item name="android:layout_height">@dimen/dp_20</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+
+    <style name="MediaController_Text">
+        <item name="android:textColor">#bfbfbf</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
